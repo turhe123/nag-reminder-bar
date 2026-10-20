@@ -1,0 +1,6 @@
+[
+  {"file":"01-menu.png","caption":"The menu bar window groups reminders into Overdue, Today and Later, each showing its due time and how often it will nag you.","alt":"NagReminderBar menu bar window with overdue, today and later reminders"},
+  {"file":"02-quick-entry.png","caption":"Press ⌃⌥R anywhere to type a reminder in plain words; a live preview shows exactly when you'll be reminded.","alt":"Quick-entry panel parsing 'submit report tomorrow 9am'"},
+  {"file":"03-settings.png","caption":"Settings let you pick the default nag interval, maximum repeats, snooze length, alert sound, launch at login and the global hotkey.","alt":"NagReminderBar Settings window"},
+  {"file":"04-overdue-panel.png","caption":"When notifications are off, overdue reminders keep nagging in a floating panel with Done and Snooze buttons.","alt":"Floating overdue reminders panel with Done and Snooze buttons"}
+]

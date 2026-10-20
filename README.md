@@ -1,5 +1,7 @@
 # NagReminderBar
 
+**🌐 Website:** [turhe123.github.io/nag-reminder-bar](https://turhe123.github.io/nag-reminder-bar/)
+
 Type a quick reminder in plain words and it keeps nudging you every few minutes until you mark it done.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -29,7 +31,21 @@ NagReminderBar is a free, open-source, 100% native, backend-free alternative to 
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu.png" alt="NagReminderBar menu bar window with overdue, today and later reminders" width="720"></p>
+
+<p align="center"><em>The menu bar window groups reminders into Overdue, Today and Later, each showing its due time and how often it will nag you.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-quick-entry.png" alt="Quick-entry panel parsing &#x27;submit report tomorrow 9am&#x27;" width="560"></p>
+
+<p align="center"><em>Press ⌃⌥R anywhere to type a reminder in plain words a live preview shows exactly when you&#x27;ll be reminded.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-settings.png" alt="NagReminderBar Settings window" width="560"></p>
+
+<p align="center"><em>Settings let you pick the default nag interval, maximum repeats, snooze length, alert sound, launch at login and the global hotkey.</em></p>
+
+<p align="center"><img src="docs/screenshots/04-overdue-panel.png" alt="Floating overdue reminders panel with Done and Snooze buttons" width="560"></p>
+
+<p align="center"><em>When notifications are off, overdue reminders keep nagging in a floating panel with Done and Snooze buttons.</em></p>
 
 ## Install
 

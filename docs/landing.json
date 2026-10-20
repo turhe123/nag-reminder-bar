@@ -1,0 +1,60 @@
+{
+  "seo_title": "Nagging reminders for the macOS menu bar",
+  "seo_description": "NagReminderBar is a free, open-source menu bar app for macOS. Type a reminder in plain words and it nags you every few minutes until it's done.",
+  "hero_title_line1": "Reminders you",
+  "hero_title_accent": "can't ignore.",
+  "hero_sub": "Type a reminder in plain words and NagReminderBar re-alerts you every few minutes until you mark it done. Press ⌃⌥R from anywhere to add one.",
+  "features_title": "Built to get things done.",
+  "features_sub": "One text field, persistent nudges, and nothing leaves your Mac.",
+  "features": [
+    {
+      "icon": "text",
+      "title": "Plain-language entry",
+      "desc": "Write 'call the dentist in 20 minutes', 'submit report tomorrow 9am' or 'stretch every 2 hours'. A live preview shows exactly when you'll be reminded."
+    },
+    {
+      "icon": "bell",
+      "title": "Auto-nagging until done",
+      "desc": "Overdue reminders are re-delivered every 1, 5, 10, 15, 30 or 60 minutes, up to a repeat limit you choose or without limit. Done, Snooze and Tomorrow are one click away in the notification."
+    },
+    {
+      "icon": "keyboard",
+      "title": "Global quick-entry hotkey",
+      "desc": "Press ⌃⌥R in any app to open a floating entry panel. The shortcut is configurable in Settings."
+    },
+    {
+      "icon": "clock",
+      "title": "Recurring and grouped",
+      "desc": "Recurring reminders move to their next occurrence when completed. The menu bar list groups items into Overdue, Today and Later, with a badge counting what's overdue."
+    },
+    {
+      "icon": "battery",
+      "title": "Sleep and wake aware",
+      "desc": "After your Mac wakes you get a single catch-up notification instead of a burst. If notifications are off, nags fall back to a floating panel."
+    },
+    {
+      "icon": "lock",
+      "title": "Local, with no network",
+      "desc": "Reminders are stored as JSON on your Mac. There are no accounts, no analytics and no third-party dependencies."
+    }
+  ],
+  "permissions_step": "When prompted, allow Notifications for NagReminderBar; you can change this later in System Settings → Notifications → NagReminderBar.",
+  "faq": [
+    {
+      "q": "Is NagReminderBar really free and open source?",
+      "a": "Yes. It is free to use and released under the MIT license, with the full source on GitHub. If you find it useful, there is an optional Support button that links to Ko-fi."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Only Notifications, so it can deliver reminders with Done, Snooze and Tomorrow actions. Launch at login is optional. It does not ask for Accessibility, Screen Recording, Calendar, Contacts or network access."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Reminders are saved as a JSON file at ~/Library/Application Support/NagReminderBar/reminders.json. Nothing is sent anywhere, and you can delete the file at any time."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, which this free project doesn't have. Right-click the app and choose Open once to get past Gatekeeper, or build it yourself from source."
+    }
+  ]
+}
